@@ -16,6 +16,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "phaser-editor": "concurrently \"yarn start\" \"sleep 5; yarn run electron\""
+    "phaser-editor": "concurrently \"BROWSER=none yarn start\" \"sleep 5; yarn run electron\""
   }
 }
